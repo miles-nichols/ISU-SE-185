@@ -1,0 +1,15 @@
+#inculde<stdio.h>	//add input ourput header file
+
+/*
+@copyright
+author, team
+date and time
+inputs, output, anything
+
+*/
+int main(void){
+	//printf("string format", argument);
+	printf("hello world");
+
+	return 0;
+}

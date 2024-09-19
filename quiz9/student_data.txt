@@ -1,0 +1,5 @@
+Student Information:
+Name: miles, Midterm 1: 65, Midterm 2: 80, Final Exam: 80
+Name: joe, Midterm 1: 100, Midterm 2: 93, Final Exam: 95
+Name: bill, Midterm 1: 57, Midterm 2: 83, Final Exam: 79
+Name: fred, Midterm 1: 49, Midterm 2: 90, Final Exam: 89

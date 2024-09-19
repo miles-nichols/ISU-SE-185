@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(void)
+{
+int students = 167; //declare and initialize the variable
+//print the number of sections
+	printf("The number of sections is: ");
+	printf("%d", students / 24);
+	printf("\n");
+	
+	return 0;
+}

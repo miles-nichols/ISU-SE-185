@@ -1,0 +1,7 @@
+
+Kyle: 
+98.3: 
+99.3: 
+average = 98.8
+Exam-1 average for the clas: 32.8
+Exam-2 maximum for the class is: 99.3

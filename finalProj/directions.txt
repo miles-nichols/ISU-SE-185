@@ -1,0 +1,44 @@
+Project #2: Memory Game
+Scenario: You are to create a memory game that can be played through the Cygwin terminal.
+Symbols will appear on the console and one will be circled at a time. Then the user will have
+to enter the order in which the symbols were circled.
+Sample Pictures:
+Memory Game Sample Output
+Code Requirements:
+● Prompt the user if they are ready to start at the beginning.
+● Have the computer randomly choose which symbol is circled.
+○ It will also need to keep track of this so it can check it against the user input.
+● The program must check for invalid input and respond accordingly, i.e., tell the user it
+was invalid and prompt them again.
+● The total score of the user (how many correct guesses they made) is collected and
+displayed to the user after each guess.
+● The symbols should be unique and semi complex (see the sample output)
+○ No single character symbols
+○ Must use some kind of loop to generate at least one of the symbols.
+● Include a highscore table
+○ It should prompt the user to enter his/her initials if their time is better than one
+of the current top ten scores.
+○ It should then print the updated table of high scores.
+● It is okay if the user theoretically could just scroll up in the console to check what was
+played. We will assume no cheating.
+● The maximum score you need to account for is 99, any score above that can be inputted
+to the high score table as 99.
+Development Tips:
+● Highscore table
+○ This will most likely be the most challenging piece of this project, start it early!
+○ This should be saved between instances of the game. You will need to write to
+a text file to achieve this.
+○ Then you’ll need to read from that text file to print out.
+○ You may need to create a unique pattern that you can store data in a text file.
+■ You control the way you write to the text file and the way you read from
+it!
+■ An example of this is provided, but you can come up with your own
+format.
+○ At the end of the game you will need to check the players score against all the
+high score values to see if the player got a high score.
+● Game State
+○ Use previous labs as examples where we made games similar to this.
+○ Have functions for all the big steps, like printing out the symbols, to make your
+code more readable.
+○ Make sure your arrays are big enough to hold a sufficient number of rounds.
+○ When developing strive for simpler code
